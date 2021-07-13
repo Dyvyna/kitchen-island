@@ -1,0 +1,50 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+.jumbotron {
+    background-image: url("bready2.jpg");
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.form-inline {
+    position: relative;
+    left: 0px;
+
+}
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+.display-4, .lead
+{
+    color: white;
+    line-height: 1.8;
+    position: relative;
+    top: 50%;
+}
+
